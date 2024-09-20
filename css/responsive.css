@@ -1,0 +1,128 @@
+/********Default Setting***********/
+
+.wrapper {
+  width:92%;
+}
+
+
+
+
+
+/********Header & Nav***********/
+
+.headerwrap {
+  width:92%;
+}
+
+.nav {
+  width:92%;
+}
+
+/**** H&N:768px ****/
+@media screen and (max-width:800px) {
+
+  .logo {
+    width:35%;
+  }
+
+  .slogan {
+    width:60%;
+  }
+
+}
+
+/**** H&N:480px ****/
+@media screen and (max-width:480px) {
+
+  .logo {
+    float:none;
+    width:45%;
+    margin:0 auto;
+  }
+
+  .slogan {
+    float:none;
+    width:100%;
+    text-align:center;
+    margin-top:4%;
+  }
+
+  .slogan p {
+    font-size:0.9em;
+    letter-spacing:0;
+  }
+  
+  i.menubtn {
+    display:block;
+  }
+  
+  .navbarfull {
+    width:100%;
+    position:relative;
+  }
+
+  ul.nav {
+    text-align:center;
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:5000;
+    width:100%;
+    background:rgba(0,0,0,0.8);
+  }
+
+  ul.nav li {
+    display:block;
+    border-bottom:1px solid #666666;
+  }
+  
+  
+
+}
+
+
+
+/**** Home Content ****/
+
+/**** Home:768px ****/
+@media screen and (max-width:800px) {
+
+  .box {
+    width:48%;
+  }
+  
+  .box2 {
+    margin-right:0;
+  }
+
+}
+
+/**** Home:640px ****/
+@media screen and (max-width:640px) {
+
+  .contain {
+    width:100%;
+    float:none;
+  }
+  
+   .aside {
+    float:none;
+    width:100%;
+    margin-top:4%;
+  }
+
+}
+
+/**** Home:414px ****/
+@media screen and (max-width:414px) {
+
+  .box {
+    width:100%;
+    float:none;
+  }
+  
+}
+
+
+/**** Footer ****/

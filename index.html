@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Papaciku Photo Booth l The Best in Malaysia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Papaciku Photo Booth services for Wedding, Parties, Corporate Events in Malaysia. Contact us now for more details</title>
+<meta name="description" content="web page description go here, maximum 160 letter">
+<meta name="keywords" content="keyword, keyword, keyword.... around 30 keywords">
+<meta name="robots" content="index, follow">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:1024px)">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="http://www.cufonfonts.com/en/font/14001/tw-cen-mt-condensed" rel="stylesheet">
+
+<!--- Get jQuery --->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<!--- Animation source --->
+<link rel="stylesheet" href="css/slider.css">
+<script type="text/javascript" src="js/slider.js"></script>
+
+<!--- Call the plugin --->
+<script type="text/javascript">
+  $(window).on("load", function() {
+    $(".slider").slider({height: 'auto'});
+  });
+</script>
+
+<!--- Moile menu btn --->
+<script> 
+$(document).ready(function(){
+    $(".menubtn").click(function(){
+        $(".nav").slideToggle(300);
+    });
+});
+</script>
+
+
+
+</head>
+<body>
+  
+  <!------- Header & Nav------>	
+
+		<div class="socialmedia">
+			<a href="https://www.facebook.com/papaciku/" class="fa fa-facebook" target="_blank"></a>
+			<a href="https://www.instagram.com/papaciku/" class="fa fa-instagram" target="_blank"></a>
+		</div>
+	
+	<a id="header-home" href="index.html">
+			<img id="header-logo" src="images/logokucing.gif" >
+		</a> 
+				
+	<div class="navbarfull">
+		
+		<ul class="nav">
+			<li><a href="services.html">Services</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact-us.html">Contact</a></li>
+		</ul>
+		
+	</div>
+	
+	
+	
+		
+
+  
+  <!------- Home Content ------>
+    
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img class="fit" src="images/banner.jpg" >
+</div>
+
+<div class="mySlides fade">
+  <img src="images/banner2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/banner3.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+  
+   <!------- Footer ------>
+           
+   <div id="footerfull">
+		<div class="footer">
+			<div class="footer-logo">
+				<img src="images/footerlogo.gif">
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="copyright">
+				<span>© 2016 Papaciku Booth. All Rights Reserved</span>
+			</div>
+
+			<div class="footer-contact">
+				<span>Papaciku Photo Booth - 019 818  6303 - Kuala Lumpur</span>
+			</div>
+
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+  
+  
+  
+  
+ 
+</body>
+</html>
